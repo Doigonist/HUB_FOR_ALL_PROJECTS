@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    background-color: black;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+div{
+    margin: auto;
+    border: 1px solid white;
+    width: 1300px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    flex-direction: column;
+    gap: 100px;
+    animation: div_load 2.5s ease-out;
+}
+
+p{
+    animation: p_load 1.7s ease-in-out ;
+}
+button{
+    border: 1px solid gray !important;
+    padding: 50px 250px;
+    background-color: transparent !important;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 64px;
+    animation: button_load 2s ease-out;
+}
+button:hover{
+    box-shadow: 1px 1px 30px rgb(255, 255, 255) !important;
+    background-color: white !important;
+    color: black;
+    transition: ease-in-out 0.3s;
+}
+@keyframes div_load{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@keyframes p_load{
+    0%{transform: translateY(-100%);}
+    100%{transform: translateY(0);}
+}
+@keyframes button_load{
+    0%{transform: translateY(300%);
+    opacity: 1;}
+    100%{transform: translateY(0);}
+}
