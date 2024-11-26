@@ -71,7 +71,7 @@ function innit(){
         records_counter = record_content.length + 1;
         for(let i = 0; i < record_content.length; i++){
             let p = document.createElement('p');
-            p.textContent = 'Запись ' + record_content[i].record_id;
+            p.textContent = 'Запись ' + (record_content[i].record_id + 1);
             p.classList.add('records_text');
             p.setAttribute('record_id' , record_content[i].record_id);
             records_area.appendChild(p);
