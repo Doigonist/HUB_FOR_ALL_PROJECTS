@@ -19,7 +19,7 @@ function oyasumi_EASTEREGG(){
         "Oyasumi, oyasumi Close your eyes and you'll leave this dream Oyasumi, oyasumi I know that it's hard to do",
         "Hey! Hеy! Hey! Hey, hey, hеy, hey!",
         "Oyasumi, oyasumi Close your eyes and you'll leave this dream Oyasumi, oyasumi I know that it's hard to do",
-        "Oyasumi, oyasumi Close your eyes and you'll leave this dream Oyasumi, oyasumi I know that it's hard to do last"
+        "Oyasumi, oyasumi Close your eyes and you'll leave this dream Oyasumi, oyasumi I know that it's hard to do"
     ]
     let counter = 0;
     setInterval(()=>{
