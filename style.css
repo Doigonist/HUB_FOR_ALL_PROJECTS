@@ -12,19 +12,50 @@ body,html{
 }
 body{
     background-color: rgb(27, 27, 28);
+}
+nav{
+    background-color: rgb(39, 39, 41);
+    height: 50px;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ nav > section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+section > a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+
 }
 h1{
-    color: white;
-    font-family: 'Inter' , sans-serif;
+    font-family: 'Inter', sans-serif;
+    color: rgb(219, 207, 207);
+    font-size: 48px;
 }
 p{
     font-family: 'Inter', sans-serif;
-    color: white;
     font-size: 24px;
-
+    color: rgb(219, 207, 207);
+}
+main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+    flex-direction: row;
+    
+}
+main > section{
+    display: flex;
+    width: 750px;
+    margin-left: 150px;
+    gap: 10px;
+    height: 200px;
+    flex-wrap: wrap;
 }
