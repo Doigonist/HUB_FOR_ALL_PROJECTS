@@ -5,5 +5,8 @@ setTimeout(() => {
     reward.textContent = 'Что-то действительно появилось!';
     document.body.appendChild(reward);
     img.setAttribute('src', 'img/alexander.png');
-    document.appendChild(img);
+    document.body.appendChild(img);
+    img.setAttribute('width', 1000);
+    img.setAttribute('height', 500);
+    
 }, 10000);
