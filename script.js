@@ -3,10 +3,12 @@ let main = document.querySelector('main');
 let aside = main.querySelector('aside');
 let img = aside.querySelector('img');
 let h1 = main.querySelector('h1');
-img.addEventListener('click', (e) =>{
+aside.addEventListener('click', (e) =>{
     if (e.ctrlKey){
         console.log('Пасхалка запущена!');
         oyasumi_EASTEREGG();
+    }else if (e.altKey){
+        aside.classList.toggle('anim')
     }
 });
 function oyasumi_EASTEREGG(){
