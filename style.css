@@ -60,3 +60,13 @@ main > section{
     height: 200px;
     flex-wrap: wrap;
 }
+aside{
+    background-image: url(img/olegro.png);
+    width: 1000px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.change{
+    background-image: url(img/alexander.png);
+}

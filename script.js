@@ -8,7 +8,7 @@ aside.addEventListener('click', (e) =>{
         console.log('Пасхалка запущена!');
         oyasumi_EASTEREGG();
     }else if (e.altKey){
-        aside.classList.toggle('anim')
+        aside.classList.toggle('change')
     }
 });
 function oyasumi_EASTEREGG(){
