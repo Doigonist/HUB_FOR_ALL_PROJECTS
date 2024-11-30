@@ -1,0 +1,8 @@
+@import "{{ site.theme }}";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: rgb(27, 27, 28);
+}
